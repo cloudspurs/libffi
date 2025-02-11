@@ -141,7 +141,7 @@ case "${host}" in
 	SOURCES="ffi.c sysv.S"
 	;;
 
-  loongarch64-*-*)
+  loongarch*-*-*)
 	TARGET=LOONGARCH64; TARGETDIR=loongarch64
 	SOURCES="ffi.c sysv.S"
 	;;
